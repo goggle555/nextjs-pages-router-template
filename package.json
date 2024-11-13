@@ -6,17 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "format-andlint": "biome check .",
+    "format-and-lint:fix": "biome check . --write",
+    "prepare": "husky"
   },
   "dependencies": {
+    "next": "^15",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "^15"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@biomejs/biome": "^1.9.4",
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "@types/react-dom": "^18",
+    "husky": "^9.1.6",
+    "typescript": "^5"
   }
 }
