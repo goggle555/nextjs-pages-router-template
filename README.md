@@ -1,4 +1,4 @@
-# Next.js Pages Router Template TEST
+# Next.js Pages Router Template test
 
 [Next.js](https://nextjs.org) の Pages Routerのテンプレートです。
 
